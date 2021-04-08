@@ -17,3 +17,4 @@ const String linkSubmitLuckyNumber = url + 'submitLuckyNumber.php';
 const String linkGetListLucky = url + 'getListLucky.php';
 const String linkGetListLuckyHistory = url + 'getListLuckyHistory.php';
 const String linkGetListGames = url + 'getListGames.php';
+const String linkGetListPrice = url + 'getListPrice.php';

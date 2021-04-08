@@ -1,5 +1,6 @@
 import 'package:flutter_getx_test/pages/game/game_webview.dart';
 import 'package:flutter_getx_test/pages/lucky/lucky_history_page.dart';
+import 'package:flutter_getx_test/pages/store/store_binding.dart';
 import 'package:get/get.dart';
 
 import '../binding.dart';
@@ -43,6 +44,7 @@ class AppPages {
     GetPage(
       name: AppRoutes.STORE,
       page: () => StorePage(),
+      binding: StoreBinding(),
     ),
     GetPage(
       name: AppRoutes.LUCKYHISTORY,
