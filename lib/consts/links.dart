@@ -1,6 +1,7 @@
 const url = "https://geotag12345.000webhostapp.com/flutterphp/";
 const urlImages = "https://geotag12345.000webhostapp.com/images/";
 const urlGames = "https://geotag12345.000webhostapp.com/games/";
+const urlPayments = "https://geotag12345.000webhostapp.com/paymentImages/";
 
 const String linkLogin = url + 'login.php';
 const String linkCheckEmail = url + 'checkEmail.php';
@@ -18,3 +19,4 @@ const String linkGetListLucky = url + 'getListLucky.php';
 const String linkGetListLuckyHistory = url + 'getListLuckyHistory.php';
 const String linkGetListGames = url + 'getListGames.php';
 const String linkGetListPrice = url + 'getListPrice.php';
+const String linkGetListPayment = url + 'getListPayment.php';

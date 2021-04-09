@@ -39,7 +39,7 @@ class VerificationWidget extends GetView<AuthController> {
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
                   hintText: '123456',
-                  hintStyle: TextStyle(fontSize: 25.0),
+                  hintStyle: Theme.of(context).textTheme.headline3,
                 ),
                 onEditingComplete: () => _submit(),
               ),
